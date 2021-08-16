@@ -1,7 +1,8 @@
 # Peplib Generator
-![Team Logo](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Teamlogo.png)
+![Team Poster](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Poster_v7.1.jpg)
 --------------------------------------------------------------------------------
 This is the work of team CSU_CHINA-iDEC:
+![Team Logo](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Teamlogo.png)
 - The one model for peptide genesis
 ## [Team wiki](https://github.com/idec2021/CSU_CHINA)
 *under development*   
@@ -14,7 +15,6 @@ This program is also a competition work in ***International Directed Evolution C
 * binding module | *developing*
 * admet module | *developing*
 ## Dependencies
-
 - [python](https://www.python.org/) v3.7.x
      * [NumPy](http://www.numpy.org/) v1.8 or higher
      * [SciPy](http://www.scipy.org/) v0.13 or higher
@@ -30,3 +30,5 @@ This program is also a competition work in ***International Directed Evolution C
 - C++ libraries 
      * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) v3.2 or higher
      * [PyBind11](https://github.com/pybind/pybind11)
+## Open source
+Source will be available when paper is published(expected date: 2022.01~2022.06)
