@@ -40,6 +40,8 @@ This program is also a competition work in ***International Directed Evolution C
      * [peptideatlas](http://www.peptideatlas.org/builds/)
      * [pdbbind](http://www.pdbbind-cn.org/download.php)
 - Hardware(off-line)
-     * GPU: P100 or higher
+     * CPU: x86-64; arm64 based is not supported
+     * GPU: NVIDIA® Tesla® P100 or higher
+     * RAM: 16 GB or higher
 ## Open source
 Source will be available when paper is published(expected date: 2022.01~2022.06)
