@@ -30,5 +30,12 @@ This program is also a competition work in ***International Directed Evolution C
 - C++ libraries 
      * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) v3.2 or higher
      * [PyBind11](https://github.com/pybind/pybind11)
+- Data Source
+     * [2020TIANCHI-ProteinSecondaryStructurePrediction-TOP1](https://github.com/wudejian789/2020TIANCHI-ProteinSecondaryStructurePrediction-TOP1)
+     * [propedia](http://bioinfo.dcc.ufmg.br/propedia)
+     * [pepbdb](http://huanglab.phys.hust.edu.cn/pepbdb/)
+     * [peplife](https://webs.iiitd.edu.in/raghava/peplife/index.php)
+     * [peptideatlas](http://www.peptideatlas.org/builds/)
+     * [pdbbind](http://www.pdbbind-cn.org/download.php)
 ## Open source
 Source will be available when paper is published(expected date: 2022.01~2022.06)
