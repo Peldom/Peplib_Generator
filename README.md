@@ -20,6 +20,8 @@ This program is also a competition work in ***International Directed Evolution C
      * [SciPy](http://www.scipy.org/) v0.13 or higher
      * [nose](http://nose.readthedocs.io/en/latest/) v1.3.7 or higher
      * [pytorch](https://pytorch.org) v1.8 or higher
+     * [biopython](https://biopython.org)
+     * [scikit-opt](https://github.com/guofei9987/scikit-opt)
 - [masif](https://github.com/LPDI-EPFL/masif)
      * [msms](http://mgltools.scripps.edu/downloads)
      * [APBS-1.5-linux64](https://sourceforge.net/projects/apbs/files/apbs/apbs-1.5/)
