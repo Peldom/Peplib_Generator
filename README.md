@@ -22,11 +22,13 @@ This program is also a competition work in ***International Directed Evolution C
      * [pytorch](https://pytorch.org) v1.8 or higher
      * [biopython](https://biopython.org) v1.79 or higher
      * [scikit-opt](https://github.com/guofei9987/scikit-opt) v0.6.5 or higher
+- [CUDA](https://developer.nvidia.com/cuda-toolkit) v 11.2 or higher
 - [masif](https://github.com/LPDI-EPFL/masif)
      * [msms](http://mgltools.scripps.edu/downloads)
      * [APBS-1.5-linux64](https://sourceforge.net/projects/apbs/files/apbs/apbs-1.5/)
      * [pdb2pqr-linux-bin64-2.1.1](https://github.com/Electrostatics/pdb2pqr)
      * [pymesh](https://github.com/PyMesh/PyMesh)
+     * [tensorflow](https://github.com/tensorflow/tensorflow) v1.9
 - C++ libraries 
      * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) v3.2 or higher
      * [PyBind11](https://github.com/pybind/pybind11)
@@ -37,5 +39,7 @@ This program is also a competition work in ***International Directed Evolution C
      * [peplife](https://webs.iiitd.edu.in/raghava/peplife/index.php)
      * [peptideatlas](http://www.peptideatlas.org/builds/)
      * [pdbbind](http://www.pdbbind-cn.org/download.php)
+- Hardware(off-line)
+     * GPU: P100 or higher
 ## Open source
 Source will be available when paper is published(expected date: 2022.01~2022.06)
