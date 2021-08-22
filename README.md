@@ -39,6 +39,7 @@ This program is also a competition work in ***International Directed Evolution C
      * [peplife](https://webs.iiitd.edu.in/raghava/peplife/index.php)
      * [peptideatlas](http://www.peptideatlas.org/builds/)
      * [pdbbind](http://www.pdbbind-cn.org/download.php)
+     * [THPdb](https://figshare.com/articles/dataset/THPdb_Database_of_FDA_Approved_Peptide_and_Protein_Therapeutics/5198005)
 - Hardware(off-line)
      * CPU: x86-64; arm64 based is not supported
      * GPU: NVIDIA® Tesla® P100 or higher
