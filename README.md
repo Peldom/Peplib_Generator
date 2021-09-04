@@ -21,7 +21,9 @@ This program is also a competition work in ***International Directed Evolution C
      * [nose](http://nose.readthedocs.io/en/latest/) v1.3.7 or higher
      * [pytorch](https://pytorch.org) v1.8 or higher
      * [biopython](https://biopython.org) v1.79 or higher
-     * [scikit-opt](https://github.com/guofei9987/scikit-opt) v0.6.5 or higher
+     * [pyswarms(forked version)](https://github.com/Peldom/pyswarms)
+     * [AlphaFold](https://github.com/deepmind/alphafold) v2.0
+     * [AlphaFoldv Advanced](AlphaFold2_advanced)
 - [CUDA](https://developer.nvidia.com/cuda-toolkit) v 11.2 or higher
 - [masif](https://github.com/LPDI-EPFL/masif)
      * [msms](http://mgltools.scripps.edu/downloads)
