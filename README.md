@@ -42,6 +42,9 @@ This program is also a competition work in ***International Directed Evolution C
      * [peptideatlas](http://www.peptideatlas.org/builds/)
      * [pdbbind](http://www.pdbbind-cn.org/download.php)
      * [THPdb](https://figshare.com/articles/dataset/THPdb_Database_of_FDA_Approved_Peptide_and_Protein_Therapeutics/5198005)
+     * [KnotProt2.0](https://knotprot.cent.uw.edu.pl/browse/)
+     * [Cybase](http://www.cybase.org.au/index.php)
+     * [KNOTTIN database](https://www.dsimb.inserm.fr/KNOTTIN/index.php)
 - Hardware(off-line)
      * CPU: x86-64; arm64 based is not supported
      * GPU: NVIDIA® Tesla® P100 or higher
