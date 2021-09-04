@@ -23,7 +23,7 @@ This program is also a competition work in ***International Directed Evolution C
      * [biopython](https://biopython.org) v1.79 or higher
      * [pyswarms(forked version)](https://github.com/Peldom/pyswarms)
      * [AlphaFold](https://github.com/deepmind/alphafold) v2.0
-     * [AlphaFoldv Advanced](AlphaFold2_advanced)
+     * [AlphaFold_Advanced](AlphaFold2_advanced)
 - [CUDA](https://developer.nvidia.com/cuda-toolkit) v 11.2 or higher
 - [masif](https://github.com/LPDI-EPFL/masif)
      * [msms](http://mgltools.scripps.edu/downloads)
