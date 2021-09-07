@@ -47,7 +47,7 @@ This program is also a competition work in ***International Directed Evolution C
      * [KNOTTIN database](https://www.dsimb.inserm.fr/KNOTTIN/index.php)
 - Hardware(off-line)
      * CPU: x86-64; arm64 based is not supported
-     * GPU: NVIDIA® Tesla® P100 or higher
+     * GPU: NVIDIA® Tesla® P100 or higher, the higher the faster
      * RAM: 16 GB or higher
 ## Open source
 Source will be available when paper is published(expected date: 2022.01~2022.06)
