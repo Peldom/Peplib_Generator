@@ -14,6 +14,12 @@ This program is also a competition work in ***International Directed Evolution C
 * evolution module | *done*
 * binding module | *developing*
 * admet module | *developing*
+## Workfolw
+Target Pocket->RIF->Motif->Bidner->Optimized Binder
+* Bidner->Optimized Binder | *able with Peplib Generator*
+* Motif->Bidner | *developing*
+* RIF->Motif | RifDock
+* Target Pocket->RIF | RifGen
 ## Dependencies
 - [python](https://www.python.org/) v3.7.x
      * [NumPy](http://www.numpy.org/) v1.8 or higher
