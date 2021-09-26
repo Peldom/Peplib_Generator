@@ -15,7 +15,7 @@ This program is also a competition work in ***International Directed Evolution C
 * binding module | *developing*
 * admet module | *developing*
 ## Workflow
-Target Pocket -> RIF -> Motif -> Bidner -> Optimized Binder
+Target Pocket -> RIF -> Motif -> Binder -> Optimized Binder
 * Bidner->Optimized Binder | *able with Peplib Generator*
 * Motif->Bidner | *developing*
 * RIF->Motif | RifDock
