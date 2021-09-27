@@ -16,10 +16,10 @@ This program is also a competition work in ***International Directed Evolution C
 * admet module | *developing*
 ## Workflow
 Target Pocket -> RIF -> Motif -> Binder -> Optimized Binder
-* Bidner->Optimized Binder | *able with Peplib Generator*
-* Motif->Bidner | *developing*
-* RIF->Motif | RifDock
-* Target Pocket->RIF | RifGen
+* Bidner -> Optimized Binder | *able with Peplib Generator*
+* Motif -> Bidner | *developing*
+* Target Pocket -> RIF -> Motif  | RifGen/RifDock
+* Target Pocket -> Motif | *able with Peplib Generator*
 ## Dependencies
 - [python](https://www.python.org/) v3.7.x
      * [NumPy](http://www.numpy.org/) v1.8 or higher
