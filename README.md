@@ -26,10 +26,11 @@ Target Pocket -> RIF -> Motif -> Binder -> Optimized Binder
      * [SciPy](http://www.scipy.org/) v0.13 or higher
      * [nose](http://nose.readthedocs.io/en/latest/) v1.3.7 or higher
      * [pytorch](https://pytorch.org) v1.8 or higher
-     * [biopython](https://biopython.org) v1.79 or higher
+     * biopython forked version
      * [pyswarms(forked version)](https://github.com/Peldom/pyswarms)
      * [AlphaFold](https://github.com/deepmind/alphafold) v2.0
      * [AlphaFold_Advanced](AlphaFold2_advanced)
+     * [PDBan](https://github.com/Maximato/PDBan)
 - [CUDA](https://developer.nvidia.com/cuda-toolkit) v 11.2 or higher
 - [masif](https://github.com/LPDI-EPFL/masif)
      * [msms](http://mgltools.scripps.edu/downloads)
