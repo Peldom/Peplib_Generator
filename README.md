@@ -1,5 +1,5 @@
 # Peplib Generator
-![Team Poster](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Poster_v7.1.jpg)
+![Team Poster](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Poster_CSU_CHINA_v2.png)
 --------------------------------------------------------------------------------
 This is the work of team CSU_CHINA-iDEC:
 ![Team Logo](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Teamlogo.png)
