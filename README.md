@@ -9,11 +9,24 @@ This is the work of team CSU_CHINA-iDEC:
 ## [`iDEC wiki`](http://idec.io)
 This program is also a competition work in ***International Directed Evolution Competition***(abbr. into ***iDEC***)
 
+## Pre-Print
+
+[Peplib Generator: In silico directed evolution and de novo generation for
+peptide drug powered by AlphaFold2](https://arxiv.idec.io/article/000004/)  
+
+[Supplementary Data](https://arxiv.idec.io/pdf/a000004.01.pdf)  
+
+Our work is similar to this pre-print:  
+
+**Deep learning methods for designing proteins scaffolding functional sites**  
+Wang, J., et al.  
+[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)  
+
 ## See you in 2022! We are working on several models...
 * representation module | *done*
-* evolution module | *done*
-* binding module | *developing*
-* admet module | *developing*
+* evolution module | *updating*
+* binding module | *done*
+* admet module | *abandoned*
 ## Workflow
 Target Pocket -> RIF -> Motif -> Binder -> Optimized Binder
 * Bidner -> Optimized Binder | *able with Peplib Generator*
