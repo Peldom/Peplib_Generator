@@ -1,73 +1,43 @@
 # Peplib Generator
+
 ![Team Poster](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Poster_CSU_CHINA_v2.png)
+
 --------------------------------------------------------------------------------
 This is the work of team CSU_CHINA-iDEC:
+
 ![Team Logo](https://github.com/Peldom/Peplib_Generator/blob/main/README_Support/Teamlogo.png)
+
 - The one model for peptide genesis
+  
 ## [`Team wiki`](https://idec2021.github.io/CSU_CHINA/idec/home.html)
 
 ## [`iDEC wiki`](http://idec.io)
-This program is also a competition work in ***International Directed Evolution Competition***(abbr. into ***iDEC***)
+
+This program is also a team-competition work in ***International Directed Evolution Competition***(abbr. into ***iDEC***)
 
 ## Pre-Print
 
 [Peplib Generator: In silico directed evolution and de novo generation for
-peptide drug powered by AlphaFold2](https://arxiv.idec.io/article/000004/)  
+peptide drug powered by AlphaFold2](https://arxiv.idec.io/article/000004/) || [Supplementary Data](https://arxiv.idec.io/pdf/a000004.01.pdf)  
+Other work-related paper will be listed later
 
-[Supplementary Data](https://arxiv.idec.io/pdf/a000004.01.pdf)  
-
-Our work is similar to this pre-print:  
-
-**Deep learning methods for designing proteins scaffolding functional sites**  
-Wang, J., et al.  
-[bioRxiv(2021)](https://europepmc.org/article/ppr/ppr419387)  
-
-## See you in 2022! We are working on several models...
-* representation module | *done*
-* evolution module | *updating*
-* binding module | *done*
-* admet module | *abandoned*
 ## Workflow
-Target Pocket -> RIF -> Motif -> Binder -> Optimized Binder
-* Bidner -> Optimized Binder | *able with Peplib Generator*
-* Motif -> Bidner | *developing*
-* Target Pocket -> RIF -> Motif  | RifGen/RifDock
-* Target Pocket -> Motif | *able with Peplib Generator*
-## Dependencies
-- [python](https://www.python.org/) v3.7.x
-     * [NumPy](http://www.numpy.org/) v1.8 or higher
-     * [SciPy](http://www.scipy.org/) v0.13 or higher
-     * [nose](http://nose.readthedocs.io/en/latest/) v1.3.7 or higher
-     * [pytorch](https://pytorch.org) v1.8 or higher
-     * biopython forked version
-     * [pyswarms(forked version)](https://github.com/Peldom/pyswarms)
-     * [AlphaFold](https://github.com/deepmind/alphafold) v2.0
-     * [AlphaFold_Advanced](AlphaFold2_advanced)
-     * [PDBan](https://github.com/Maximato/PDBan)
-- [CUDA](https://developer.nvidia.com/cuda-toolkit) v 11.2 or higher
-- [masif](https://github.com/LPDI-EPFL/masif)
-     * [msms](http://mgltools.scripps.edu/downloads)
-     * [APBS-1.5-linux64](https://sourceforge.net/projects/apbs/files/apbs/apbs-1.5/)
-     * [pdb2pqr-linux-bin64-2.1.1](https://github.com/Electrostatics/pdb2pqr)
-     * [pymesh](https://github.com/PyMesh/PyMesh)
-     * [tensorflow](https://github.com/tensorflow/tensorflow) v1.9
-- C++ libraries 
-     * [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) v3.2 or higher
-     * [PyBind11](https://github.com/pybind/pybind11)
-- Data Source
-     * [2020TIANCHI-ProteinSecondaryStructurePrediction-TOP1](https://github.com/wudejian789/2020TIANCHI-ProteinSecondaryStructurePrediction-TOP1)
-     * [propedia](http://bioinfo.dcc.ufmg.br/propedia)
-     * [pepbdb](http://huanglab.phys.hust.edu.cn/pepbdb/)
-     * [peplife](https://webs.iiitd.edu.in/raghava/peplife/index.php)
-     * [peptideatlas](http://www.peptideatlas.org/builds/)
-     * [pdbbind](http://www.pdbbind-cn.org/download.php)
-     * [THPdb](https://figshare.com/articles/dataset/THPdb_Database_of_FDA_Approved_Peptide_and_Protein_Therapeutics/5198005)
-     * [KnotProt2.0](https://knotprot.cent.uw.edu.pl/browse/)
-     * [Cybase](http://www.cybase.org.au/index.php)
-     * [KNOTTIN database](https://www.dsimb.inserm.fr/KNOTTIN/index.php)
-- Hardware(off-line)
-     * CPU: x86-64; arm64 based is not supported
-     * GPU: NVIDIA® Tesla® P100 or higher, with 16GB+ VRAM
-     * RAM: 16 GB or higher
-## Open source
-Source will be available when paper is published(expected date: 2022.01~2022.06)
+
+Due to job adjustment, our work has been modified and integrated into a new pipeline for high-throughput in silico generation and screening:
+
+- Rif sampling: by [RifGen](https://github.com/LongxingCao/rifdock_v4.2)/our sampling scripts(unreleased yet)
+- Scaffold generation: WeFold(unreleased yet)
+- Scaffold filtering: Molpacker(unreleased yet)
+- Sequence design: [FastDesign](https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Movers/movers_pages/FastDesignMover)/**ProteinMPNN special edition** edited from [ProteinMPNN](https://github.com/dauparas/ProteinMPNN)
+- Sequence Filtering: **AlphaFold2-turbo**(from **Peplib Generator** edited from [AlphaFold2](https://github.com/lucidrains/alphafold2), unreleased yet)
+
+It takes ~10 days to generate ideal 20k~100k sequences & structures.
+
+## Hardware Dependencies
+
+- Hardware(supported SLURM)
+     * CPU: >=1000 * x86-64 cores; arm64 based is not supported
+     * GPU: >=10 * NVIDIA® Tesla® P100 or higher, with 16GB+ VRAM
+     * RAM: 15 GB each GPU core, 4GB each CPU core
+     * ROM: 500GB or higher
+
