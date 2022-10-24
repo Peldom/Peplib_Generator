@@ -31,7 +31,7 @@ Due to job adjustment, our work has been modified and integrated into a new pipe
 - Sequence design: [FastDesign](https://www.rosettacommons.org/docs/latest/scripting_documentation/RosettaScripts/Movers/movers_pages/FastDesignMover)/**ProteinMPNN special edition** edited from [ProteinMPNN](https://github.com/dauparas/ProteinMPNN)
 - Sequence Filtering: **AlphaFold2-turbo**(from **Peplib Generator** edited from [AlphaFold2](https://github.com/lucidrains/alphafold2), unreleased yet)
 
-It takes ~10 days to generate ideal 20k~100k sequences & structures.
+It takes 10-15 days to generate ideal 20k-100k sequences & structures.
 
 ## Hardware Dependencies
 
